@@ -46,16 +46,7 @@ public:
         return false;
     }
 
-    vector<double> getOperators(double a, double b) {
-        vector<double> results;
-        results.push_back(a + b);
-        results.push_back(a - b);
-        results.push_back(b - a);
-        results.push_back(a * b);
-        if (b != 0) results.push_back(a / b);
-        if (a != 0) results.push_back(b / a);
-        return results;
-    }
+    
 };
 
 int main() {
